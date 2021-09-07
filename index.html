@@ -193,7 +193,40 @@
                 background: transparent !important;
                 color: #FF6347 !important;
             }
-            
+
+
+
+            .image_sm{
+                width: 500px;
+                height: 500px;
+                background: #fff;
+                position: absolute;
+                top:50px;
+                left:-284px;
+            }
+            .image_sm > ul{
+                height: 230px;
+                list-style: none;
+                padding: 0px;
+                
+            }
+
+            .image_sm > ul > li{
+                float: left;
+                height: 100%;
+                width: 24.7%;
+            }
+            .image_sm a{
+                background: transparent !important;
+            }
+            .image a:hover{
+                display: block;
+            }
+            .menu  .image_sm:hover{
+                float: left;
+
+            }
+                    
         </style>
     </head>
     <body>
@@ -479,6 +512,35 @@
                 </li>
                 <li>
                     <a href="#">Images <i class="fas fa-chevron-down"></i></a>
+                    <div class="image_sm">
+                        <ul class="image">
+                            <li>
+                                <h3>Product #1</h3>
+                                <a href="#">
+                                    <img style="width: 100%;" src="img/img.jpg" >
+                                  </a>
+                            </li>
+                            <li >
+                                <h3>Product #2</h3>
+                                <a href="#">
+                                    <img style="width: 100%;" src="img/img.jpg" >
+                                  </a>
+                            </li>
+                            <li>
+                                <h3>Product #3</h3>
+                                <a href="#">
+                                    <img style="width: 100%;" src="img/img.jpg" >
+                                  </a>
+                            </li>
+                            <li>
+                                <h3>Product #4</h3>
+                                <a href="#">
+                                    <img style="width: 100%;" src="img/img.jpg" >
+                                  </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
                 </li>
                 <li>
                     <a href="#" >Contact <i class="fas fa-chevron-down"></i></a>
